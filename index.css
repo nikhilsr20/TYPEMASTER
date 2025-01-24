@@ -1,0 +1,132 @@
+#root{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #313131;
+}
+#Logo {
+    
+    width: fit-content;
+    font-size: 2rem; 
+    color: #161816; 
+    font-family: Arial, sans-serif; 
+    border-radius: 20px;
+    margin-left: 60px; 
+    padding: 20px;
+    background-color: rgb(8, 7, 7);
+    color: bisque;
+    position: relative;
+    top: 10px;
+}
+.time{
+    position: absolute;
+    left: 860px;
+    top: 210px;
+    font-size: 70px;
+    color: silver;
+
+
+}
+.tag{
+    position: absolute;
+    left: 835px;
+    top: 120px; 
+    font-size: 40px;
+    width: fit-content;
+    padding: 10px;
+    border:solid #483f3f 2px;
+    color: rgb(161, 167, 173);
+}
+
+.main {
+    position: absolute;
+    top: 400px; 
+    width: 1750px;
+    height: 500px; 
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0); 
+    color: rgb(238, 245, 245);
+    padding: 10px 20px; 
+    font-size: 36px;
+    outline: none; 
+    box-sizing: border-box; 
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.2;
+}
+.main::placeholder {
+    color: rgb(150, 150, 150); 
+   opacity: 0.2 !important;
+   
+}
+
+.main:focus {
+    border-color:none; 
+    outline: none; 
+}
+.main.has-text::placeholder {
+    opacity: 0.5 !important;
+}
+.hide{
+    position: absolute;
+    top: 400px; 
+    width: 1750px;
+    height: 500px; 
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0); 
+    color: rgb(80, 82, 83);
+    padding: 10px 20px; 
+    font-size: 36px;
+    outline: none; 
+    box-sizing: border-box; 
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.6;
+}
+.restart{
+    position: absolute;
+    top: 904px;
+    left: 820px;
+    font-size: 40px;
+    width: fit-content;
+    border-radius: 10px;
+   
+    padding: 10px;
+    color: wheat;
+    background-color: rgb(0, 0, 0);
+}
+.restart:hover{
+    border: solid white 2px;
+    cursor: pointer;
+}
+.word{
+
+        flex-wrap: wrap-reverse;
+    justify-content:space-between ;
+    border: transparent;
+    border: 2px solid transparent; 
+}
+
+    .word:focus {
+       
+        outline: none;
+        
+      }
+.result{
+    position: absolute;
+    top: 200;
+    left: 1500px;
+    font: 500;
+    font-size: 30px;
+    color: aliceblue;
+    background-color: rgb(83, 85, 83);
+    padding: 10px;
+    border-radius: 30px;
+    border: solid black 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
